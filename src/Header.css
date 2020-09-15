@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+}
+.header__logout {
+    position: absolute;
+    top: 47px;
+    right: 30px;
+    width: 80px;
+    padding: 12px;
+    background: linear-gradient( rgb(91, 87, 115), rgba(0, 0, 0, 1));
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header__logout > p{
+    font-size: 14px;
+    color:rgb(204, 204, 204);
+}
+.header__left {
+    flex: 0.5;
+    min-width: 70px;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header__left > input {
+    border: none;
+    width: 100%;
+}
+.header__left > input:focus {
+    outline: none;
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(40,40,40,0.8);
+    border-radius: 20px;
+    padding: 2px 4px;
+    z-index: 100;
+}
+.header__right > h4 {
+    margin-left: 10px;
+}
